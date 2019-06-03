@@ -1,20 +1,20 @@
 -Used this project to learn more about the functionality of Redux
 
 Main points learned:
--Redux helps give each React component the exact piece of state it needs
--The state of the whole Redux application lives in the store
--Reducers produce the state of your application based on action type
--Reducers take 2 parameters: the current state and an action
--The state is immutable and cannot change in place
--The only way to change the state is by sending a signal to the store (action)
--Every action needs a type property
--Constants should be used to better define action types to minimize errors
--To ensure state remains immutable, use concat(),slice() for arrays, Object.assign() for objects
+- Redux helps give each React component the exact piece of state it needs
+- The state of the whole Redux application lives in the store
+- Reducers produce the state of your application based on action type
+- Reducers take 2 parameters: the current state and an action
+- The state is immutable and cannot change in place
+- The only way to change the state is by sending a signal to the store (action)
+- Every action needs a type property
+- Constants should be used to better define action types to minimize errors
+- To ensure state remains immutable, use concat(),slice() for arrays, Object.assign() for objects
 
 Methods:
--subscribe() : accepts callback that will fire when action is dispatched
--dispatch() : dispatching an action
--getState(): accesses current state of the app
+- subscribe() : accepts callback that will fire when action is dispatched
+- dispatch() : dispatching an action
+- getState(): accesses current state of the app
 
 
 
