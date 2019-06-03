@@ -1,4 +1,4 @@
--Used this project to learn more about the functionality of Redux
+- Used this project to learn more about the functionality of Redux
 
 Main points learned:
 - Redux helps give each React component the exact piece of state it needs
