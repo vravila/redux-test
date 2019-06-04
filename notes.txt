@@ -1,0 +1,7 @@
+React-Redux tutorial
+- Small library for connecting React component with Redux store
+- mapStateToProps function: connects part of Redux state to props of a React componenet
+        -Allows connected React component have access to exact part of store it needs
+- mapDispatchToProps function: connects Redux actions to React props
+        -Allows connected React component be able to dispatch actions
+-Provider is high order component that wraps up React application and makes it aware of Redux's store
